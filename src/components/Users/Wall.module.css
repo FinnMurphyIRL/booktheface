@@ -1,0 +1,79 @@
+/* src/components/Users/Wall.module.css */
+.wall {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.title {
+  color: #3b5998;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.postForm {
+  margin-bottom: 20px;
+}
+
+.textarea {
+  width: 100%;
+  height: 60px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+  font-size: 11px;
+  resize: vertical;
+}
+
+.submitButton {
+  background-color: #3b5998;
+  color: white;
+  border: none;
+  padding: 3px 8px;
+  font-size: 11px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.submitButton:hover {
+  background-color: #2d4373;
+}
+
+.posts {
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+.post {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.postAuthor {
+  color: #3b5998;
+  font-weight: bold;
+  font-size: 11px;
+  margin: 0 0 5px 0;
+}
+
+.postContent {
+  font-size: 11px;
+  margin: 0 0 5px 0;
+}
+
+.postDate {
+  color: #777;
+  font-size: 9px;
+  margin: 0;
+}
+
+.loading {
+  color: #777;
+  font-size: 12px;
+  text-align: center;
+  padding: 10px;
+}

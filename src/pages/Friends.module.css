@@ -1,0 +1,31 @@
+/* src/pages/Friends.module.css */
+.friendsContainer {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.friendRequests, .friendsList {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.friendRequest, .friend {
+  margin-bottom: 10px;
+}
+
+.acceptButton {
+  background-color: #3b5998;
+  color: white;
+  border: none;
+  padding: 3px 8px;
+  font-size: 11px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.acceptButton:hover {
+  background-color: #2d4373;
+}

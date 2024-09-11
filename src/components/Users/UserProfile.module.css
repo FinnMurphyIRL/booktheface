@@ -1,0 +1,63 @@
+/* src/components/Users/UserProfile.module.css */
+.userProfile {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.profilePicture {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+}
+
+.name {
+  color: #3b5998;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.bio {
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+
+.button {
+  background-color: #3b5998;
+  color: white;
+  border: none;
+  padding: 3px 8px;
+  font-size: 11px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.button:hover {
+  background-color: #2d4373;
+}
+
+.editForm {
+  margin-top: 10px;
+}
+
+.input, .textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-size: 11px;
+  border: 1px solid #ccc;
+}
+
+.textarea {
+  height: 60px;
+  resize: vertical;
+}
+
+.loading, .error {
+  color: #777;
+  font-size: 12px;
+  text-align: center;
+  padding: 10px;
+}

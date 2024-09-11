@@ -1,0 +1,30 @@
+# .replit file
+run = "npm run start"
+entrypoint = "src/index.js"
+modules = ["nodejs-20"]
+
+[env]
+NODE_ENV = "development"
+
+[nix]
+channel = "stable-22_11"
+
+[packager]
+language = "nodejs"
+
+[packager.features]
+packageSearch = true
+guessImports = true
+
+[languages]
+
+[languages.javascript]
+pattern = "**/{*.js,*.jsx,*.ts,*.tsx}"
+
+[languages.javascript.languageServer]
+start = "typescript-language-server --stdio"
+
+[deployment]
+run = ["sh", "-c", "npm run replit-build"]
+deploymentTarget = "static"
+publicDir = "dist"

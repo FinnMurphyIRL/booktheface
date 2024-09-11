@@ -1,0 +1,36 @@
+/* src/components/Posts/PostItem.module.css */
+.postItem {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.author {
+  color: #3b5998;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+}
+
+.content {
+  margin: 0 0 10px 0;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.likeButton {
+  background-color: #d8dfea;
+  border: 1px solid #3b6e22;
+  color: #3b6e22;
+  padding: 2px 6px;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.likeButton:hover {
+  background-color: #c1cde1;
+}

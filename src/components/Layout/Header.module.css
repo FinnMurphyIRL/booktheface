@@ -1,0 +1,39 @@
+/* src/components/Layout/Header.module.css */
+.header {
+  background-color: #3b5998;
+  color: white;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav {
+    margin-top: 10px;
+  }
+
+  .nav a {
+    display: block;
+    margin: 5px 0;
+  }
+}

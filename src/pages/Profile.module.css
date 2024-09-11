@@ -1,0 +1,16 @@
+/* src/pages/Profile.module.css */
+.profileContainer {
+  display: flex;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.leftColumn {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.rightColumn {
+  flex: 2;
+}

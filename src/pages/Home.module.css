@@ -1,0 +1,45 @@
+/* src/pages/Home.module.css */
+.landingPage {
+  max-width: 900px;
+  margin: 20px auto;
+  font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+}
+
+.welcomeSection {
+  background-color: #3b5998;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 14px;
+}
+
+.authSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.loginContainer, .registerContainer {
+  width: 48%;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+
+.loginContainer h2, .registerContainer h2 {
+  color: #3b5998;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.registerContainer p {
+  font-size: 11px;
+  margin-bottom: 10px;
+}

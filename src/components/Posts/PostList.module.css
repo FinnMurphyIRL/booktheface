@@ -1,0 +1,31 @@
+/* src/components/Posts/PostList.module.css */
+.postList {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+}
+
+.loadMoreButton {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  background-color: #3b5998;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 11px;
+  margin-top: 10px;
+}
+
+.loadMoreButton:hover {
+  background-color: #2d4373;
+}
+
+.loading {
+  text-align: center;
+  color: #777;
+  font-size: 12px;
+  padding: 10px;
+}

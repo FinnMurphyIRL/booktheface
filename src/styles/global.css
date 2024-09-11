@@ -1,0 +1,32 @@
+/* src/styles/global.css */
+body {
+  font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.app {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-content {
+  background-color: #fff;
+  border: 1px solid #b3b3b3;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .app {
+    padding: 0;
+  }
+
+  .main-content {
+    border: none;
+    padding: 10px;
+  }
+}
